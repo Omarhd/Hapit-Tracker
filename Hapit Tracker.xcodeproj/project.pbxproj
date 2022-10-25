@@ -16,6 +16,9 @@
 		4C9741702907F89F0066A41A /* Hapit_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97416F2907F89F0066A41A /* Hapit_TrackerTests.swift */; };
 		4C97417A2907F89F0066A41A /* Hapit_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C9741792907F89F0066A41A /* Hapit_TrackerUITests.swift */; };
 		4C97417C2907F89F0066A41A /* Hapit_TrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97417B2907F89F0066A41A /* Hapit_TrackerUITestsLaunchTests.swift */; };
+		4C97418B2907FB0A0066A41A /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97418A2907FB0A0066A41A /* Home.swift */; };
+		4C97418D2907FF430066A41A /* HabitViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97418C2907FF430066A41A /* HabitViewModel.swift */; };
+		4C97418F290801FB0066A41A /* AddNewHabit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C97418E290801FB0066A41A /* AddNewHabit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,9 @@
 		4C9741752907F89F0066A41A /* Hapit TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hapit TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9741792907F89F0066A41A /* Hapit_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hapit_TrackerUITests.swift; sourceTree = "<group>"; };
 		4C97417B2907F89F0066A41A /* Hapit_TrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hapit_TrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4C97418A2907FB0A0066A41A /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		4C97418C2907FF430066A41A /* HabitViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HabitViewModel.swift; sourceTree = "<group>"; };
+		4C97418E290801FB0066A41A /* AddNewHabit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewHabit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,8 @@
 		4C9741582907F89D0066A41A /* Hapit Tracker */ = {
 			isa = PBXGroup;
 			children = (
+				4C9741892907FAC40066A41A /* ViewModel */,
+				4C9741882907FABD0066A41A /* View */,
 				4C9741592907F89D0066A41A /* Hapit_TrackerApp.swift */,
 				4C97415B2907F89D0066A41A /* ContentView.swift */,
 				4C97415D2907F89F0066A41A /* Assets.xcassets */,
@@ -131,6 +139,23 @@
 				4C97417B2907F89F0066A41A /* Hapit_TrackerUITestsLaunchTests.swift */,
 			);
 			path = "Hapit TrackerUITests";
+			sourceTree = "<group>";
+		};
+		4C9741882907FABD0066A41A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4C97418A2907FB0A0066A41A /* Home.swift */,
+				4C97418E290801FB0066A41A /* AddNewHabit.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4C9741892907FAC40066A41A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4C97418C2907FF430066A41A /* HabitViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +290,9 @@
 			files = (
 				4C9741632907F89F0066A41A /* Persistence.swift in Sources */,
 				4C97415C2907F89D0066A41A /* ContentView.swift in Sources */,
+				4C97418B2907FB0A0066A41A /* Home.swift in Sources */,
+				4C97418F290801FB0066A41A /* AddNewHabit.swift in Sources */,
+				4C97418D2907FF430066A41A /* HabitViewModel.swift in Sources */,
 				4C97415A2907F89D0066A41A /* Hapit_TrackerApp.swift in Sources */,
 				4C9741662907F89F0066A41A /* Hapit_Tracker.xcdatamodeld in Sources */,
 			);
